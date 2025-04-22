@@ -1,3 +1,3 @@
 # Pokédex Angular
-
+.
 
