@@ -8,13 +8,13 @@
       }
     ],
     "rewrites": [
-      { "src": "/(.*)", "dest": "/index.html" }
+      { "source": "/(.*)", "destination": "/index.html" }
     ],
     "headers": [
       {
         "source": "/(.*)",
         "headers": [
-          { "key": "Content-Security-Policy",   "value": "default-src 'self'; img-src 'self' https:;" },
+          { "key": "Content-Security-Policy",   "value": "default-src 'self'; img-src 'self' https:" },
           { "key": "X-Frame-Options",           "value": "SAMEORIGIN" },
           { "key": "X-Content-Type-Options",    "value": "nosniff" },
           { "key": "Referrer-Policy",           "value": "strict-origin-when-cross-origin" },
