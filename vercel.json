@@ -7,7 +7,7 @@
         "config": { "distDir": "dist/pokedex-angular" }
       }
     ],
-    "routes": [
+    "rewrites": [
       { "src": "/(.*)", "dest": "/index.html" }
     ],
     "headers": [
